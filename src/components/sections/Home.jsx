@@ -58,7 +58,7 @@ export const Home = ({ isLoaded }) => {
             </a>
 
             <a
-              href="#contact"
+              href="https://github.com/sntalha/" target="_blank"
               className="border border-lime-500/50 text-lime-500 py-3 px-6 rounded font-medium transition-all duration-200 
              hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(132,204,22,0.2)] hover:bg-lime-500/10"
             >
