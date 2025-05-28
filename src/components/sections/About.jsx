@@ -23,14 +23,14 @@ export const About = () => {
             About Me
           </h2>
 
-          <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
+          <div className="rounded-xl p-8 border border-white/10 hover:-translate-y-1 hover:border-lime-500/30 hover:shadow-[0_2px_8px_rgba(132,204,22,0.2)] transition">
             <p className="text-gray-300 mb-6">
               Passionate developer with expertise in building scalable web
               applications and creating innovative solutions.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
+              <div className="rounded-xl p-6 border border-white/10 hover:-translate-y-1 hover:border-lime-500/30 hover:shadow-[0_2px_8px_rgba(132,204,22,0.2)] transition">
                 <h3 className="text-xl font-bold mb-4"> Frontend</h3>
                 <div className="flex flex-wrap gap-2">
                   {frontendSkills.map((tech, key) => (
@@ -50,7 +50,7 @@ export const About = () => {
                 </div>
               </div>
 
-              <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
+              <div className="rounded-xl p-6 border border-white/10 hover:-translate-y-1 hover:border-lime-500/30 hover:shadow-[0_2px_8px_rgba(132,204,22,0.2)] transition">
                 <h3 className="text-xl font-bold mb-4"> Backend</h3>
                 <div className="flex flex-wrap gap-2">
                   {backendSkills.map((tech, key) => (
@@ -73,7 +73,7 @@ export const About = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-lime-500/30 hover:shadow-[0_2px_8px_rgba(132,204,22,0.2)] transition">
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
@@ -85,7 +85,7 @@ export const About = () => {
                 </li>
               </ul>
             </div>
-            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-lime-500/30 hover:shadow-[0_2px_8px_rgba(132,204,22,0.2)] transition">
               <h3 className="text-xl font-bold mb-4"> 📚 Certifications </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>

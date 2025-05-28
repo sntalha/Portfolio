@@ -13,6 +13,30 @@ body {
   scroll-behavior: smooth;
 }
 
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #84cc16; /* lime-500 color */
+  transition: all 0.2s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a3e635; /* lime-400 color */
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #84cc16 #0a0a0a;
+}
+
 @layer utilities {
   @keyframes blink {
     0%,

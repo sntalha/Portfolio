@@ -81,7 +81,13 @@ export const ProjectModal = ({ isOpen, onClose, project }) => {
                 {project.techStack.map((tech, index) => (
                   <span
                     key={index}
-                    className="bg-lime-500/10 text-lime-500 py-1 px-3 rounded-full text-sm"
+                    className="
+                      bg-lime-500/10 text-lime-500 py-1 px-3 
+                      rounded-full text-sm
+                      transition
+                      hover:bg-lime-500/20 hover:-translate-y-0.5
+                      hover:shadow-[0_2px_8px_rgba(132,204,22,0.2)]
+                    "
                   >
                     {tech}
                   </span>
