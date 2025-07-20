@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-export const ProjectModal = ({ isOpen, onClose, project }) => {
+export const ProjectModal = ({ isOpen, onClose, project, showWebsiteButton = true }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   if (!isOpen) return null;
@@ -40,7 +40,7 @@ export const ProjectModal = ({ isOpen, onClose, project }) => {
               <img
                 src={project.images[currentImageIndex]}
                 alt={`${project.title} screenshot ${currentImageIndex + 1}`}
-                className="w-full h-full object-cover rounded-t-xl"
+                className="w-full h-full object-contain rounded-t-xl"
               />
               
               {/* Navigation Buttons */}
@@ -95,14 +95,16 @@ export const ProjectModal = ({ isOpen, onClose, project }) => {
               </div>
 
               {/* Visit Website Button */}
-              <a
-                href={project.websiteUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block bg-lime-500 text-black font-semibold px-6 py-2 rounded-lg hover:bg-lime-400 transition-colors"
-              >
-                Visit Website
-              </a>
+              {showWebsiteButton && (
+                <a
+                  href={project.websiteUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-lime-500 text-black font-semibold px-6 py-2 rounded-lg hover:bg-lime-400 transition-colors"
+                >
+                  Visit Website
+                </a>
+              )}
               <a
                 href={project.repoUrl}
                 target="_blank"
