@@ -51,10 +51,11 @@ export const Home = ({ isLoaded }) => {
           </p>
           <div className="flex justify-center space-x-4">
             <a
-              href="#projects"
+              href="/SYED NOOR UL TALHA - Software Engineer CV.pdf"
+              download
               className="bg-lime-500 text-black py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(132,204,22,0.4)]"
             >
-              View Projects
+              Download CV
             </a>
 
             <a
