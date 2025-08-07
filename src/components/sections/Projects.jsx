@@ -51,6 +51,7 @@ export const Projects = () => {
       techStack: ["React", "Java", "Solidity", "MetaMask"],
       websiteUrl: "#",
       repoUrl: "https://github.com/Ahmedbaig2004/BidSphere-Frontend",
+      role: "Developed Frontend with API Integrations, connecting users to the Sepolia Testnet through MetaMask and execution of Smart Contract.",
       images: [
         bidsphere1,
         bidsphere2,
@@ -72,6 +73,7 @@ export const Projects = () => {
       techStack: ["React", "Node.Js", "MongoDB", "Web Socket"],
       websiteUrl: "#",
       repoUrl: "https://github.com/Ahmedbaig2004/SadaqaSafar-FullStack",
+      role: "Developed the modules for user authentication and profile management with JWT tokens and password encryption for two seperate roles (Donor and NGO).",
       images: [
         sadaqasafar1,
         sadaqasafar2,
@@ -89,6 +91,7 @@ export const Projects = () => {
       techStack: ["React", "Express", "MongoDB", "Redux"],
       websiteUrl: "https://e-mart-dusky-sigma.vercel.app/",
       repoUrl: "https://github.com/sntalha/E-Mart",
+      role: "Developed both the frontend and backend of the e-commerce website using React, Express, and MongoDB.",
       images: [
         emart1,
         emart2,
@@ -107,6 +110,7 @@ export const Projects = () => {
       techStack: ["TMDB", "HTML", "Node.Js", "PostgreSQL"],
       websiteUrl: "#",
       repoUrl: "https://github.com/sntalha/CineBuzz",
+      role: "Developed the modules for user authentication, collaborative forums and personalized lists. Also, developed the backend with session management and local PostgreSQL database integration.",
       images: [
         cinebuzz1,
         cinebuzz2,
